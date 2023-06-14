@@ -1,0 +1,49 @@
+html {
+	font-family: 'Segoe UI', sans-serif;
+	background-color: #333745;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	position: absolute;
+	color: lightgray
+}
+
+label, input {
+	color: lightgray;
+}
+
+form {
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	margin-top: 10%;
+	padding: 2px 5px;
+	font-size: 20px;
+	height: 30px;
+	width: 325px;
+}
+
+input {
+	background-color: inherit;
+	border-radius: 5px;
+	height: 20px;
+}
+
+button {
+	margin-top: 10%;
+	border: 2px inset lightgray;
+	border-radius: 5px;
+	background-color: #333745;
+	color: lightgray;
+	font-size: 20px;
+	height: 40px;
+	width: 325px;
+}
+
+button:hover {
+	cursor: pointer;
+}
